@@ -5,6 +5,7 @@ int n;
 
 
 void init(int *a){
+srand((unsigned)time(0));
 printf("\n");
 	for (int i = 0; i < n; i++) // заповнення масива
 	{
